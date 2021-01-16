@@ -1,0 +1,46 @@
+{
+  "development": {
+    "username": "postgres",
+    "password": "P455uu0rd^^ok",
+    "database": "pu_oauthdb",
+    "host": "103.56.149.60",
+    "port":5432,
+    "dialect": "postgres",
+    "dialectOptions": {
+      "dateStrings": true,
+      "typeCast": true
+    },
+    "timezone": "Asia/Jakarta"
+  },  
+  
+  "token_expire":"7",
+  "token_expire_unit":"day",
+  "secret": "yZh7fv62xLshZmt8LuSlI9RmstrdQ0nE",
+  
+  "cryptoKey":{
+    "md5Key": "4B1C9E44D769C429",
+    "hashKey": "51beba089ef1612152be4933ea6a9a48"
+  },
+
+  "mailerSetting":{
+    "smtp": "smtp.gmail.com",
+    "username": "peter.itdev@gmail.com",
+    "password": "O91o88juli83^^ok",
+    "clientId": "166708906762-uel1grlnqjsqv47k8dvdk0htsh765lhq.apps.googleusercontent.com",
+    "clientSecret": "6KAAGWF11bpB-JgWi2CvDjKr",
+    "refreshToken" :"1//04Uw6222-4lIWCgYIARAAGAQSNwF-L9IrL4P4bwuO11pNY0eyQjyf78tWuex4Qcq9TMOZHxckJwetcqPNhPvDs2w5YlgQNUQqDYQ",
+    "accessToken": "ya29.a0AfH6SMDhXTnIvGJDE8Y9X8eBTHIz1hGv7X7wkEYycWMqUAAU3T61M2WkgciIAcl3LQQyaGYsyuQEUJQJIZfn-acwqCW3p3nP_7a41frdoftaMSwUqB3EgMhkQUqHarhUtoUwrkn3tx_7WYNIayB5JG38fMc7iYbBjGImSuuyei0"
+  },
+
+  "frontParam":{
+    "separatorData": "Þ",
+    "emailVerificationLink": "http://localhost:8080/pumr/u/verify/#VERIFICATION_CODE#"
+  },  
+
+  "dialectOptions": {
+    "useUTC": false,
+    "charset": "utf8mb4_unicode_ci"
+  },
+  "timezone": "+07:00"
+  
+}
