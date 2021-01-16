@@ -3,7 +3,7 @@
     "username": "postgres",
     "password": "P455uu0rd^^ok",
     "database": "pu_oauthdb",
-    "host": "103.56.149.60",
+    "host": "localhost",
     "port":5432,
     "dialect": "postgres",
     "dialectOptions": {
