@@ -128,6 +128,8 @@ class UserNotificationService {
 
         var xJoResult = {};
 
+        console.log(JSON.stringify(config.mailerSetting));
+
         var xTransportParam = {
             host: config.mailerSetting.smtp,
             port: 587,
