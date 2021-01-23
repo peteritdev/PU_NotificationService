@@ -20,6 +20,8 @@ async function generateEmailVerification( req, res ){
 async function generateForgotPassword( req, res ){
     var joResult;
 
+    console.log(JSON.stringify(req.body));
+
     joResult = await userNotificationServiceInstance.generateForgotPassword(req.body);
 
     res.setHeader('Content-Type','application/json');

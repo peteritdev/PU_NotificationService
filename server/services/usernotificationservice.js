@@ -74,6 +74,8 @@ class UserNotificationService {
         var joResult;
         var rsNotificationTemplate = await userNotificationRepoInstance.getNotificationTemplateByCode( "FORGOT_PASSWORD" );
 
+        console.log(JSON.stringify(param));
+
         if( rsNotificationTemplate != null ){
 
             //Replace variable with data
