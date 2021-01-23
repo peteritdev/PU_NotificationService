@@ -132,8 +132,8 @@ class UserNotificationService {
 
         var xTransportParam = {
             host: config.mailerSetting.smtp,
-            port: 587,
-            secure: false,
+            port: 465,
+            secure: true,
             // service: 'gmail',
             auth: {
                 // type: 'oauth2',
